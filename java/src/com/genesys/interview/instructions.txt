@@ -1,0 +1,3 @@
+javac  Questions/java/src/com/genesys/interview/SemanticVersionQuestion.java
+
+java  Questions/java/src/com/genesys/interview/SemanticVersionQuestion
