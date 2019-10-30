@@ -2,7 +2,7 @@
  * Method returns the greater version number.
  * A normal version number MUST take the form X.Y.Z where X, Y, Z are non-negative integer
  * Values increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
- * If the input is invalid we should raise a exception
+ * If the input is invalid we should raise a SemanticVersionException
  * Must not contain leading zeroes
  * If the inputs are the same return that version
 '''

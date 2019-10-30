@@ -1,3 +1,8 @@
-javac  Questions/java/src/com/genesys/interview/SemanticVersionQuestion.java
 
-java  Questions/java/src/com/genesys/interview/SemanticVersionQuestion
+
+
+
+How to run the main
+javac  java/src/com/genesys/interview/SemanticVersionQuestion.java
+cd src
+java  com.genesys.interview.SemanticVersionQuestion

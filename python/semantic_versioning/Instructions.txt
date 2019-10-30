@@ -1,3 +1,6 @@
 Fix
+python/semantic_versioning/semantic_versioning.py
 
-python3 Questions/python/semantic_versioning/test_semantic_versioning.py
+
+How to run the Test
+python3 python/semantic_versioning/test_semantic_versioning.py
