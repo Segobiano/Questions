@@ -55,6 +55,7 @@ public class SemanticVersionQuestion {
 
         try {
             getGreaterVersion("1.a.0", "1.2.0");
+            System.out.println("FAIL");
 
         } catch (NumberFormatException e) {
             System.out.println("FAIL "+ e.getClass() + "  " + e.getMessage());
@@ -65,6 +66,7 @@ public class SemanticVersionQuestion {
 
         try {
             getGreaterVersion("", "1.2.0");
+            System.out.println("FAIL");
 
         } catch (NumberFormatException e) {
             System.out.println("FAIL "+ e.getClass() + "  " + e.getMessage());
@@ -75,6 +77,7 @@ public class SemanticVersionQuestion {
 
         try {
             getGreaterVersion(null, "1.2.0");
+            System.out.println("FAIL");
 
         } catch (NullPointerException e) {
             System.out.println("FAIL "+ e.getClass() + "  " + e.getMessage());
@@ -94,6 +97,7 @@ public class SemanticVersionQuestion {
 
         try {
             getGreaterVersion("1..6", "1.2.0");
+            System.out.println("FAIL");
         } catch (NumberFormatException e) {
             System.out.println("FAIL "+ e.getClass() + "  " + e.getMessage());
         }
